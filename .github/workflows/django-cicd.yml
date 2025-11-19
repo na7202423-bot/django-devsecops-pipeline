@@ -236,6 +236,8 @@ jobs:
 
             # 3. Navigate to the deployment directory containing the docker-compose.yml
             cd $APP_DIR
+            ls -l $APP_DIR 
+            cat $APP_DIR/docker-compose.yml
 
             # 4. Pull the latest images for the stack (App from ECR, DB from Docker Hub/Registry)
             # This ensures we get the latest built app image.
