@@ -1,4 +1,8 @@
-# DevOps_CI-CD_Django_ECR_EC2
+![Build Status](https://github.com/AdityaKonda6/django-devsecops-pipeline/actions/workflows/django-cicd.yml/badge.svg)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20ECR-orange)
+![Docker](https://img.shields.io/badge/Docker-Container-blue)
+# django-devsecops-pipeline
 Purpose: Dockerize a Django app, scan the image, push to AWS ECR, and deploy to EC2.
 This README collects **everything**: file descriptions, local setup, Docker, CloudShell/ECR steps, EC2 pull & run, image scanning (Trivy HTML), SAST (Bandit), DAST (OWASP ZAP), and helpful troubleshooting.
 
