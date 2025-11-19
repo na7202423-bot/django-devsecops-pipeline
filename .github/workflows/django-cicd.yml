@@ -221,7 +221,7 @@ jobs:
 
           script: |
             # Directory on EC2 where you store your code, especially docker-compose.yml
-            APP_DIR="/home/${{ secrets.EC2_USER }}/django-app" # <<< Set your application root path
+            APP_DIR="/home/${{ secrets.EC2_USER }}/app" # <<< Set your application root path
 
             # 1. Login to ECR
             aws ecr get-login-password --region ${{ secrets.AWS_REGION }} | docker login --username AWS --password-stdin ${{ secrets.AWS_ECR_REPO_URI }}
