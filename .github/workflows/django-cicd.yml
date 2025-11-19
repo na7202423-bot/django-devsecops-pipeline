@@ -24,7 +24,7 @@ jobs:
 
       # Bandit Check: Fails if High Severity issues are found (-lll = High only)
       - name: Run Bandit Security Check
-        run: bandit -lll -r .
+        run: bandit -lll -r . -x ./venv
 
       # Trivy Check: Fails if CRITICAL or HIGH vulnerabilities are found
       - name: Run Trivy Vulnerability Scanner
